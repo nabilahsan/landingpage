@@ -1,2 +1,2 @@
-# nabilahsan.github.io-landingpage
+# landingpage
 Custom landing page
