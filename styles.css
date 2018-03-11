@@ -1,3 +1,7 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
   background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
   background-repeat: no-repeat;
@@ -22,6 +26,26 @@ div input {
 }
 
 img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   padding-top: 20%;
+}
+
+button {
+  border-radius: 0px;
+  border: none;
+
+}
+
+.form-control {
+  margin: 0 auto;
+  float: none;
+  padding: 5%;
+  margin-bottom: 2%;
+  width: 100%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+	border: 0;
+	outline: 0;
 }
