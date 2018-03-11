@@ -1,3 +1,27 @@
 body {
-  background: linear-gradient(45deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
+  background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+div h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+div input {
+  display: block;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  padding-top: 20%;
 }
