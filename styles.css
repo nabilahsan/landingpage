@@ -1,13 +1,20 @@
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+
+  background: #119D86;
+  background-repeat: no-repeat;
+  
 }
 
+ /*
 body {
   background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background: #119D86;
 }
-
+ */
 
 #mc_embed_signup {
   clear: left;
@@ -20,17 +27,28 @@ div h1 {
   padding: 30px;
 }
 
+div p {
+  text-align: center;
+  font-size: 150%;
+  padding-top: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 div input {
   display: block;
   text-align: center;
+  margin: auto;
+  width: 100%;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding-top: 20%;
+  width: 40%;
+  margin-top: 27%;
+  margin-bottom: 35%;
 }
 
 button {
@@ -48,4 +66,8 @@ button {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
 	border: 0;
 	outline: 0;
+}
+
+div button {
+  margin-bottom: 20%;
 }
