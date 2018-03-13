@@ -4,6 +4,7 @@
 
   background: #119D86;
   background-repeat: no-repeat;
+  color: beige;
   
 }
 
@@ -35,12 +36,7 @@ div p {
   padding-right: 20%;
 }
 
-div input {
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-}
+
 
 img {
   display: block;
@@ -62,7 +58,7 @@ button {
   float: none;
   padding: 5%;
   margin-bottom: 2%;
-  width: 100%;
+  width: 150%;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
 	border: 0;
 	outline: 0;
