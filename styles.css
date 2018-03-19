@@ -1,54 +1,95 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
+  letter-spacing: 1.5px;
+  background: #FEE781;/*Subtly different from Catherine's color choice */ 
 
-  background: #119D86;
-  background-repeat: no-repeat;
-  color: beige;
-  
 }
 
- /*
-body {
-  background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: #119D86;
-}
- */
-
-#mc_embed_signup {
-  clear: left;
+html {
+  margin: 0;
+  height: 100%;
   width: 100%;
 }
+/*Styling for Form elements*/
 
-div h1 {
+
+label {
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+input {
+  float: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  background-repeat: no-repeat;
+  border: none;
+  margin-bottom: 50%;
+}
+
+button {
+  float: none;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border: none;
+  width: auto;
+  padding: 1%;
+}
+
+button:hover {
+  transition: all 0.5s ease-out;
+  background: blue;
+  color: bisque;
+}
+
+
+/*Logo and text styling*/
+img {
+  margin-top: 25%;
+  margin-bottom: 35%;
+  width: 40%;
+}
+
+h1 {
   text-align: center;
   padding: 30px;
 }
 
-div p {
+p {
   text-align: center;
-  font-size: 150%;
+  font-size: 400%;
   padding-top: 2%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 a i {
   font-size: 300%;
   margin-right: 40px;
-  margin-left: 40px; 
-  margin-bottom: 20%; 
+  margin-left: 40px;
+  margin-bottom: 20%;
+}
+
+.font-awesome {
+  margin-top: 2%;
 }
 
 .fa-twitter:hover {
-  color:red;
-  transition: 0.5s;
+  color: red;
+  transition: 0.2s;
 }
 
 .fa-instagram:hover {
@@ -56,31 +97,14 @@ a i {
   transition: 0.5s;
 }
 
-img {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-top: 27%;
-  margin-bottom: 35%;
-}
 
-button {
-  border-radius: 0px;
-  border: none;
-}
 
-.form-control {
-  margin: 0 auto;
-  float: none;
-  padding: 5%;
-  margin-bottom: 2%;
-  width: 150%;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
-	border: 0;
-	outline: 0;
+/*
+body {
+  background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #119D86;
 }
+*/
 
-div button {
-  margin-bottom: 10%;
-}

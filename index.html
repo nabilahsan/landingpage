@@ -4,82 +4,124 @@
 <head>
   <meta charset="utf-8">
 
-  <!--MailChimp Integration-->
-  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-  
-  <!--My stylesheet-->
-  <link rel="stylesheet" href="styles.css">
+  <!--MailChimp Integration
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">-->
 
-  <!--Bootstrap style sheet-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  
-  <!--Google Fonts, Raleway--> 
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+  <? php include "script/mail.php"; ?>
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="styles.css">
 
-  <!--Font Awesome CDN Link--> 
-  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!--Bootstrap style sheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
 
-  <title>Shoot</title>
-  
+    <!--Google Fonts, Raleway-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+
+    <!--Google Fonts, Nunito Sans-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+
+    <!--Font Awesome CDN Link-->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+    <title>Shoot</title>
+
 </head>
 
 <body>
-  <!-- Code from MailChimp
-  <div id="mc_embed_signup">
-    <form action="https://twitter.us12.list-manage.com/subscribe/post?u=63df6b5f3825bec43b188a8b3&amp;id=e80b36c92b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-        <label for="mce-EMAIL">Subscribe to our mailing list!</label>
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+  <div>
+    <div class="container">
 
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-          <input type="text" name="b_63df6b5f3825bec43b188a8b3_e80b36c92b" tabindex="-1" value="">
-        </div>
-        <div class="clear">
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-        </div>
-      </div>
-    </form>
-  </div>
--->
-    <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" action=action="https://twitter.us12.list-manage.com/subscribe/post?u=63df6b5f3825bec43b188a8b3&amp;id=e80b36c92b" method="post" novalidate>
-
-      <div class="container text-center">
+      <div class="text-center">
           <img src="img/black-mark.png" alt="shoot-mark-black">
-      </div>    
-
-      <div class="container">
-        <p>
-          The Atelier is the heart and mind of Shoot. We believe that people are at their best when they are doing something that they love and creating things of value to them
-        </p>
-
-        <p>
-          At Shoot, we aim to empower photographers, models, creatives and anyone with a story to tell. 
-        </p>
-
-        <p>
-          From weddings to rooftop parties and family reunions and corporate headshots we want to revolutionize how people use art to tell their stories
-        </p>
-
       </div>
 
-      <div class="container">
-        <h1>Sign up for our mailing list!</h1>
-      </div>
+      <p>
+        The Atelier is the heart and mind of Shoot. We believe that people are at their best when they are doing something that they
+        love and creating things of value to them
+      </p>
 
-        <div class="container form-group" id="mc_embed_signup_scroll">
-          <input type="email" class="form-control" name="EMAIL" value="" placeholder="Enter email address here" required>
-        </div>
+      <p>
+        At Shoot, we aim to empower photographers, models, creatives and anyone with a story to tell.
+      </p>
 
-        <div class="text-center container">
-          <button type="button" class="btn btn-primary" name="Subscribe" id="mc-embedded-subscribe" value="Subscribe">Subscribe</button>
-        </div>
+      <p>
+        From weddings to rooftop parties and family reunions and corporate headshots we want to revolutionize how people use art
+        to tell their stories
+      </p>
+    </div>
 
-        <div class="container text-center font-awesome">
-             <a href="https://twitter.com/ShootBetaV1"> <i class="fab fa-twitter"></i> </a>
-             <a href="https://www.instagram.com/shootbeta/"><i class="fab fa-instagram"></i></a>       
-        </div>
-    </form>
+    <div class="container text-center form">
+      <form action="script/mail.php" method="POST">
+        <label for="email">Subscribe to our mailing list</label>
+        <input type="email" value="" name="email" placeholder="email address" required>
+        <button type="submit" value="subscribe" name="subscribe">SUBSCRIBE</button>
+      </form>
+    </div>
+
+
+    <div class="container text-center font-awesome">
+      <a href="https://twitter.com/ShootBetaV1">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/shootbeta/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+
+
+  </div>
+
+  </div>
+
 
 </body>
+
+<!--<body>
+  <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" action=action="https://twitter.us12.list-manage.com/subscribe/post?u=63df6b5f3825bec43b188a8b3&amp;id=e80b36c92b"
+    method="post" novalidate>
+    <div class="container text-center">
+      <img src="img/black-mark.png" alt="shoot-mark-black">
+    </div>
+
+    <div class="container">
+      <p>
+        The Atelier is the heart and mind of Shoot. We believe that people are at their best when they are doing something that they
+        love and creating things of value to them
+      </p>
+
+      <p>
+        At Shoot, we aim to empower photographers, models, creatives and anyone with a story to tell.
+      </p>
+
+      <p>
+        From weddings to rooftop parties and family reunions and corporate headshots we want to revolutionize how people use art
+        to tell their stories
+      </p>
+
+    </div>
+
+    <div class="container">
+      <h1>Sign up for our mailing list!</h1>
+    </div>
+
+    <div class="container form-group" id="mc_embed_signup_scroll">
+      <input type="email" class="form-control" name="EMAIL" value="" placeholder="Enter email address here" required>
+    </div>
+
+    <div class="text-center container">
+      <button type="button" class="btn btn-primary" name="Subscribe" id="mc-embedded-subscribe" value="Subscribe">Subscribe</button>
+    </div>
+
+    <div class="container text-center font-awesome">
+      <a href="https://twitter.com/ShootBetaV1">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/shootbeta/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </form>
+</body>-->
 
 </html>
