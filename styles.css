@@ -28,7 +28,8 @@ label {
 input {
   text-align: center;
   width: 50%;
-  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: black;
   border-radius: 20px;
   background: white;
