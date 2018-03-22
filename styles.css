@@ -30,7 +30,7 @@ input {
   width: 50%;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: black;
+  border: #000000;
   border-radius: 20px;
   background: white;
 }
@@ -63,6 +63,7 @@ img {
 h1 {
   text-align: center;
   padding: 30px;
+  color: #000000;
 }
 
 p {
@@ -71,6 +72,7 @@ p {
   padding-top: 2%;
   padding-left: 10%;
   padding-right: 10%;
+  color: #000000;
 }
 
 a {
@@ -91,7 +93,7 @@ a i {
 
 .fa-twitter:hover {
   color: red;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .fa-instagram:hover {
