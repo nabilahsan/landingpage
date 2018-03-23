@@ -3,8 +3,8 @@
   font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   letter-spacing: 1.5px;
-  background: #FEE781;/*Subtly different from Catherine's color choice */ 
-
+  background: #FEE781;
+  /*Subtly different from Catherine's color choice */
 }
 
 html {
@@ -12,17 +12,11 @@ html {
   height: 100%;
   width: 100%;
 }
+
 /*Styling for Form elements*/
 
-
-label {
-  text-align: center;
-  font-size: 200%;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
+.form {
+  margin-top: 5%;
 }
 
 input {
@@ -52,8 +46,8 @@ button:hover {
   border-radius: 20px;
 }
 
-
 /*Logo and text styling*/
+
 img {
   margin-top: 25%;
   margin-bottom: 35%;
@@ -75,12 +69,22 @@ p {
   color: #000000;
 }
 
-a {
-text-decoration: none;
+.finalNote {
+  text-align: center;
+  font-size: 150%;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  color: #000000;
 }
 
-a i {
-  font-size: 300%;
+a:hover, a:visited, a:link {
+    text-decoration: none;
+    text-anchor: none;
+}
+
+a, i {
+  font-size: 200%;
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 20%;
@@ -90,6 +94,7 @@ a i {
 .font-awesome {
   margin-top: 2%;
 }
+
 
 .fa-twitter:hover {
   color: red;
@@ -101,9 +106,8 @@ a i {
   transition: 0.5s;
 }
 
-
-
 /*
+
 body {
   background: linear-gradient(140deg, #DD0C8B, #E52127, #F15B22, #FDD31C);
   background-repeat: no-repeat;
@@ -111,4 +115,3 @@ body {
   background: #119D86;
 }
 */
-
