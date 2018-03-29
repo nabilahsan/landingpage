@@ -1,0 +1,55 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img {
+        margin-top: 70%;
+        margin-bottom: 90%;
+        width: 60%;
+      }
+
+    p {
+        font-size: 180%;
+      }
+
+    .finalNote {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    a, i {
+        font-size: 150%;          margin-right: 20px;          margin-left: 20px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    /*Issues separating button and input*/
+    button {
+        margin-top: 100px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
