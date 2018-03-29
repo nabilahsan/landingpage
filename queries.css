@@ -34,23 +34,77 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    img {
+        margin-top: 50%;
+        margin-bottom: 80%;
+        width: 60%;
+      }
+
+    p {
+        font-size: 200%;
+      }
+
+    .finalNote {
+        font-size: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    a, i {
+        font-size: 150%;          margin-right: 20px;          margin-left: 20px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    /*Issues separating button and input*/
+    button {
+        margin-top: 100px;
+    }
    
 
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-   
+
+    img {
+        margin-top: 55%;
+        margin-bottom: 60%;
+        width: 50%; 
+    }   
 
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    img {
+        margin-top: 25%;
+        margin-bottom: 28%;
+        width: 40%; 
+    }
    
 
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    img {
+        margin-top: 25%;
+        margin-bottom: 28%;
+        width: 40%; 
+    }
+
+
+    .finalNote {
+        font-size: 120%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
 }

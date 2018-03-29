@@ -101,6 +101,11 @@ a, i {
   transition: 0.5s;
 }
 
+.fa-spotify:hover {
+  color: red;
+  transition: 0.5s;
+}
+
 /*
 
 body {
