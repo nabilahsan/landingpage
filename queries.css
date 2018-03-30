@@ -17,7 +17,8 @@
     }
 
     a, i {
-        font-size: 150%;          margin-right: 20px;          margin-left: 20px;
+        font-size: 150%;          
+        margin-right: 20px;          margin-left: 20px;
         margin-top: 10%;
         margin-bottom: 20%;
     }
@@ -35,9 +36,9 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     img {
-        margin-top: 50%;
+        margin-top: 60%;
         margin-bottom: 80%;
-        width: 60%;
+        width: 70%;
       }
 
     p {
@@ -51,7 +52,8 @@
     }
 
     a, i {
-        font-size: 150%;          margin-right: 20px;          margin-left: 20px;
+        font-size: 150%;
+        margin-right: 20px;          margin-left: 20px;
         margin-top: 10%;
         margin-bottom: 20%;
     }
@@ -82,6 +84,10 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+    input {
+        width: 50%;
+    }
+
     img {
         margin-top: 25%;
         margin-bottom: 28%;
@@ -93,11 +99,19 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    input {
+        width: 50%;
+    }
+
+    p {
+        font-size: 300%;
+
+    }
 
     img {
         margin-top: 25%;
         margin-bottom: 28%;
-        width: 40%; 
+        width: 50%; 
     }
 
 
