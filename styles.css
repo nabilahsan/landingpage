@@ -55,7 +55,6 @@ img {
   width: 40%;
 }
 
-
 p {
   text-align: center;
   font-size: 400%;
@@ -74,12 +73,15 @@ p {
   color: #000000;
 }
 
-a:hover, a:visited, a:link {
-    text-decoration: none;
-    text-anchor: none;
+a:hover,
+a:visited,
+a:link {
+  text-decoration: none;
+  text-anchor: none;
 }
 
-a, i {
+a,
+i {
   font-size: 200%;
   margin-right: 40px;
   margin-left: 40px;
@@ -91,20 +93,23 @@ a, i {
   margin-top: 2%;
 }
 
-
 .fa-twitter:hover {
-  color: red;
+  color: #00aced;
   transition: 0.5s;
 }
 
 .fa-instagram:hover {
-  color: red;
+  color: #bc2a8d;
   transition: 0.5s;
 }
 
 .fa-spotify:hover {
-  color: red;
+  color: #1db954;
   transition: 0.5s;
+}
+
+*:focus {
+  outline: none;
 }
 
 /*
