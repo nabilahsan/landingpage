@@ -38,6 +38,7 @@ button {
   border: none;
   width: auto;
   padding: 1%;
+  margin-top: 20%;
 }
 
 button:hover {
@@ -55,6 +56,11 @@ img {
   width: 40%;
 }
 
+#fullLogoBottom {
+  width: 20%;
+  margin-bottom: -10%;
+}
+
 p {
   text-align: center;
   font-size: 400%;
@@ -66,7 +72,7 @@ p {
 
 .finalNote {
   text-align: center;
-  font-size: 150%;
+  font-size: 90%;
   padding-top: 5%;
   padding-left: 30%;
   padding-right: 30%;
@@ -89,9 +95,6 @@ i {
   color: black;
 }
 
-.font-awesome {
-  margin-top: 2%;
-}
 
 .fa-twitter:hover {
   color: #00aced;

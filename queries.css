@@ -16,6 +16,11 @@
         padding-right: 10%;
     }
 
+    #fullLogoBottom {
+        width: 45%;
+        margin-bottom: -25%;
+      }
+
     a, i {
         font-size: 150%;          
         margin-right: 20px;          
@@ -25,7 +30,7 @@
     }
 
     input {
-        width: 100%;
+        width: 90%;
     }
 
     /*Issues separating button and input*/
@@ -47,14 +52,15 @@
       }
 
     .finalNote {
-        font-size: 100%;
+        font-size: 90%;
         padding-left: 10%;
         padding-right: 10%;
     }
 
     a, i {
         font-size: 150%;
-        margin-right: 20px;          margin-left: 20px;
+        margin-right: 20px;          
+        margin-left: 20px;
         margin-top: 10%;
         margin-bottom: 20%;
     }
@@ -62,6 +68,11 @@
     input {
         width: 100%;
     }
+
+    #fullLogoBottom {
+        width: 40%;
+        margin-bottom: -25%;
+      }
 
     /*Issues separating button and input*/
     button {
@@ -78,7 +89,12 @@
         margin-top: 55%;
         margin-bottom: 60%;
         width: 50%; 
-    }   
+    } 
+    
+    #fullLogoBottom {
+        width: 40%;
+        margin-bottom: -20%;
+      }
 
 } 
 
@@ -94,6 +110,11 @@
         margin-bottom: 28%;
         width: 40%; 
     }
+
+    #fullLogoBottom {
+        width: 30%;
+        margin-bottom: -10%;
+      }
    
 
 } 
@@ -115,9 +136,14 @@
         width: 50%; 
     }
 
+    #fullLogoBottom {
+        width: 30%;
+        margin-bottom: -10%;
+      }
+
 
     .finalNote {
-        font-size: 120%;
+        font-size: 90%;
         padding-left: 10%;
         padding-right: 10%;
     }
