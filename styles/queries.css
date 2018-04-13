@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     img {
-        margin-top: 70%;
+        margin-top: 60%;
         margin-bottom: 80%;
         width: 70%;
       }
@@ -33,10 +33,6 @@
         width: 90%;
     }
 
-    /*Issues separating button and input*/
-    button {
-        margin-top: 100px;
-    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -86,7 +82,7 @@
 @media only screen and (min-width: 768px) {
 
     img {
-        margin-top: 55%;
+        margin-top: 50%;
         margin-bottom: 60%;
         width: 50%; 
     } 
